@@ -33,6 +33,9 @@ This project conducts a comprehensive analysis of Bangalore's restaurant scene u
 
 ### Description
 
+[Download Dataset from Dropbox](https://www.dropbox.com/scl/fi/sjjj6sos7m3g45vkv7c5x/zomato.csv?rlkey=ypi0rhqoi3aef7uls0px4rupf&st=nzf5f10x&dl=0)
+
+
 The dataset, sourced from Zomato, contains information about restaurants in Bangalore, India. It includes details such as restaurant names, locations, cuisines, ratings, and more.
 
 ### Key Attributes
