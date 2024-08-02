@@ -57,7 +57,7 @@ The dataset, sourced from Zomato, contains information about restaurants in Bang
 
 <img width="545" alt="Impact of Table Booking Facility on Restaurant Ratings" src="https://github.com/user-attachments/assets/9ff51ba6-1c34-41fd-a723-418491e0bebe">
 
-<p align="center"><strong>Effect of Table Booking Facilities on Restaurant Ratings</strong></p>
+<p align="left"><strong>Effect of Table Booking Facilities on Restaurant Ratings</strong></p>
 
 
 #### Description:
@@ -77,3 +77,56 @@ To understand the geographic distribution of restaurants, we first sorted the da
 In the subsequent part of our analysis, we visualize this data geographically using a heatmap. This helps identify clusters and the density of restaurants in different areas, highlighting key locations such as Victoria Layout and Koramangala, while confirming that BTM has the highest concentration of restaurants.
 
 In part two of our objective, we will identify popular cuisines in different cities by examining the number of restaurants offering each cuisine. The following section will present the code snippet used to identify these popular cuisines.
+
+
+### 3. Most Popular Cuisines Offered by Restaurants
+
+<img width="502" alt="Most Popular Cuisines Offered by Restaurants" src="https://github.com/user-attachments/assets/4e9542a4-3939-41fe-96e0-569d61cfcb1a">
+
+<p align="center"><strong>Top 10 Most Offered Cuisines by Restaurants</strong></p>
+
+#### Description:
+This bar graph highlights the top 10 most offered cuisines across restaurants. The x-axis represents different cuisine types, while the y-axis shows the number of restaurants offering each cuisine. The graph clearly indicates that 'North Indian' cuisine is the most popular, as most restaurants feature it.
+
+<p>This bar graph illustrates restaurants' top 10 most offered cuisines. The x-axis represents different cuisine types, while the y-axis shows the number of restaurants that offer each cuisine. The graph reveals that 'North Indian' cuisine is the most frequently offered, indicating a high demand for this cuisine in the city.</p>
+
+
+### 4. Most Liked Dishes According to Number of Restaurants
+
+<img width="536" alt="Most Liked Dishes According to Number of Restaurants" src="https://github.com/user-attachments/assets/24c3bc25-59ab-4b30-88d6-286da9f165fe">
+
+<p align="center"><strong>Top Liked Dishes as Per Restaurant Listings</strong></p>
+
+#### Description:
+This bar graph displays the top 25 most liked dishes based on the number of restaurants offering them. The x-axis represents different dishes, while the y-axis indicates the number of restaurants that feature each dish. The graph highlights that 'Pasta' is the most liked dish, as it appears in the highest number of restaurant menus.
+
+
+ 
+### 5. Distribution of Ratings in the Dataset
+
+<img width="506" alt="Distribution of Ratings in the Dataset" src="https://github.com/user-attachments/assets/1e53f5c7-807d-4041-8359-10918827a411">
+
+<p align="center"><strong>Overview of Rating Frequencies in the Dataset</strong></p>
+
+#### Description:
+This histogram provides a visualization of the ratings distribution from the `df-recommendation` dataset. The x-axis represents the rating values, while the y-axis shows the count of occurrences for each rating.
+
+**Findings**: 
+- The distribution indicates that the highest rating in the dataset is approximately **3.6 out of 5**.
+- There is a notable concentration of ratings around this value, suggesting that the majority of ratings are clustered near the mid-range of the scale.
+
+### 6. Votes vs. Rating Analysis
+
+<img width="509" alt="Votes vs. Rating Analysis" src="https://github.com/user-attachments/assets/11fb66b1-d69e-4180-acb6-ef50def110e6">
+
+<p align="center"><strong>Relationship Between Votes and Ratings</strong></p>
+
+#### Description:
+This scatter plot examines the relationship between the number of votes and the rating scores in the `df_recommendation` dataset. The x-axis represents the number of votes, while the y-axis shows the corresponding ratings.
+
+**Findings**:
+- The plot reveals that **buffet meals** receive the highest number of votes compared to other meal types.
+- This suggests a strong correlation between meal type and the amount of feedback, with buffets being particularly popular among diners.
+
+
+
